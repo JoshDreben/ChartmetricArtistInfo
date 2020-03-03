@@ -1,0 +1,23 @@
+.artist-container-info {
+    display:flex;
+}
+
+.artist-item {
+    width:200px;
+    margin:10px;
+}
+
+.artist-item-followers {
+    order: 2;
+    flex: 1;
+}
+
+.artist-item-monthly-listeners {
+    order: 3;
+    flex: 1;
+}
+
+.artist-item-name {
+    order: 1;
+    flex: 2;
+}

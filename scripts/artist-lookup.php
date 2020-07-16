@@ -11,12 +11,14 @@
 class SpotifyChecker{
     // This object's authorization and refresh tokens
     private $_authtoken;
-    private $_reftoken = "sBG7lfgzTI9kt7bYvpXsPVizANd6NHiL7wtIGcccjwCQdTJQb93M671Cs9muA11Q"; // NO LONGER ACTIVE
+
+    // NO LONGER ACTIVE, REQUIRES ACTIVE TOKEN TO ALLOW WEBSITE TO RUN
+    private $_reftoken = "sBG7lfgzTI9kt7bYvpXsPVizANd6NHiL7wtIGcccjwCQdTJQb93M671Cs9muA11Q"; 
     private $_artistid;
 
-    private $_artistname;
-    private $_artistf;
-    private $_artistml;
+    public $_artistname;
+    public $_artistf;
+    public $_artistml;
 
     /**
      * This function displays the artist's info for debugging purposes.
